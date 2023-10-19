@@ -19,6 +19,9 @@ Monkeypox (mpox) is an infectious disease caused by monkeypox virus. Normally, m
 1. Baseline CNN (AlexNet architecture)
 2. Residual Networks (ResNet50, ResNet101, ResNet152) with BottleNeck layers
 3. Residual Networks (ResNet50, ResNet101, ResNet152) with BottleNeck layers and Squeeze and Excitation module
+
+*Note: No pre-trained models were utilized in this repository. We developed the models from scratch in order to customized the model (particularly BottleNeck layers to capture fine, intricate details of lesion and Squeeze and Excitation Blocks for image recalibration).*
+
 <center>
 <img src = "/images/block_diagram.PNG" width = "1200"/>
 </center>
