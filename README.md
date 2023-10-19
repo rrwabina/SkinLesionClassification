@@ -12,10 +12,13 @@ You need to install the prerequisites.
 pip install -r requirements.txt
 ```
 
-
-
 ## Introduction
 Monkeypox (mpox) is an infectious disease caused by monkeypox virus. Normally, most of the mbox cases were reported from West and Central Africa where mpox is endemic. However, there have been a number of reports of monkeypox cases where most of the confirmed cases have been reported to travel from Europe and North America which were not endemic countries. This situation has never happened before where many moneybox cases have been reported concurrently in non-endemic countries. Mpox can be spread through close and direct skin-to-skin contact. Pregnant women and newborn need to be cautious as the disease can infect the fetus during pregnancy and spread to the newborn. The World Health Organization (WHO) has alerted non-endemic countries to be aware and surveillance to prevent further outbreak. In Thailand, mpox has been found in populated provinces such as Bangkok, Nonthaburi and Chon buri. Given the problem statement, early detection of mpox is crucial to prevent further infection. To alleviate the risk of contact with high risk patients and identify the patients with mpox, we can apply image processing to solve this task.
+
+## Baseline Results 
+<center>
+<img src = "/images/baseline_result.PNG" width = "1200"/>
+</center>
 
 ## Summary of Results
 The table presents a comprehensive overview of different models employed for lesion classification, along with their key performance metrics. Two categories of models are featured: the Baseline CNN models and the ResNet models. These models vary in their architecture and include enhancements such as bottleneck layers and Squeeze-and-Excitation (SE) blocks. One notable observation is the substantial increase in parameters as model complexity grows, from the Baseline CNN to ResNet152 with BottleNeck and SE, reflecting the heightened capacity of the latter to capture small details in lesion images. The performance metrics, including loss, accuracy, and F1-score, exhibit an upward trend as well, demonstrating how the sophisticated models outperform the baseline. 
