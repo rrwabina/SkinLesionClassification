@@ -16,8 +16,14 @@ pip install -r requirements.txt
 Monkeypox (mpox) is an infectious disease caused by monkeypox virus. Normally, most of the mbox cases were reported from West and Central Africa where mpox is endemic. However, there have been a number of reports of monkeypox cases where most of the confirmed cases have been reported to travel from Europe and North America which were not endemic countries. This situation has never happened before where many moneybox cases have been reported concurrently in non-endemic countries. Mpox can be spread through close and direct skin-to-skin contact. Pregnant women and newborn need to be cautious as the disease can infect the fetus during pregnancy and spread to the newborn. The World Health Organization (WHO) has alerted non-endemic countries to be aware and surveillance to prevent further outbreak. In Thailand, mpox has been found in populated provinces such as Bangkok, Nonthaburi and Chon buri. Given the problem statement, early detection of mpox is crucial to prevent further infection. To alleviate the risk of contact with high risk patients and identify the patients with mpox, we can apply image processing to solve this task.
 
 ## Baseline Results 
+We applied Gradient-weighted Class Activation Mapping (GradCAM) to gain a deeper understanding of BaselineCNN's performance. Initial results shed light on the model's limitations; CHP and HEALTHY exhibit lower F1-scores, primarily because BaselineCNN struggles to capture the intricate details specific to these classes. Instead, the model focuses on non-unique aspects, resulting in misclassifications. BaselineCNN may consider these intricate details as noise and may struggle with CHP and HEALTHY class with adversarial attacks, compression articfacts, and other forms of distortion. Existing studies have concluded that while AlexNet (as BaselineCNN's foundational architecture) can detect noisem it may not be robust to certain types of noise - especially in dealing with real-world variations. In contrast, HFMD, MKP, and MSL fare well in classification, as BaselineCNN effectively identifies the pertinent features. As a result, there is a compelling need to explore and propose a more robust model for the accurate classification of these skin lesions.
 <center>
 <img src = "/images/baseline_result.PNG" width = "1200"/>
+</center>
+
+## Comparison to other models
+<center>
+<img src = "/images/chicken_mokey.PNG" width = "1200"/>
 </center>
 
 ## Summary of Results
