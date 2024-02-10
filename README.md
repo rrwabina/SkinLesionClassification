@@ -1,6 +1,9 @@
 # Uncertainty-Aware Feature Recalibration Module using Stochastic Differential Equations for Image Classification
-A repository of Skin Lesion Classification using Deep Learning for the 2022 Qualifying Examination of PhD students in Data Science for Healthcare and Clinical Informatics
 Authors: Romen Samuel Wabina, Prut Saowaprut, Junwei Yang
+
+
+
+A repository of Skin Lesion Classification using Deep Learning for the 2022 Qualifying Examination of PhD students in Data Science for Healthcare and Clinical Informatics
 You can access the main Jupyter Notebook in the file:
 ```
 ../src/notebooks/main.ipynb
